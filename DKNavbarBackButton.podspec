@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name = "DKNavbarBackButton"
   s.version = "0.1.0"
-  s.summary = "iOS modal standart back button, that looks like standart navbar back button, but can be added in any navbar or toolBar, without navigation controller."
+  s.summary = "iOS modal back button, that looks like standart navbar back button, but can be added in navbar/toolBar, without nav controller."
   s.homepage = "https://github.com/wade0n/DKNavbarBackButton"
   s.license = { :type => 'MIT', :file => 'LICENSE'}
   s.author = { "Dmitrii Kalashnikov" => "mr.dmitriikalashnikov@gmail.com" }
