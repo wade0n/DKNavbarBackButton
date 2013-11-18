@@ -7,26 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77534FC0183A12160005D89B /* back_indicator_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 77534FA6183A12160005D89B /* back_indicator_image.png */; };
+		77534FC1183A12160005D89B /* back_indicator_image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77534FA7183A12160005D89B /* back_indicator_image@2x.png */; };
+		77534FC2183A12160005D89B /* DKBackBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 77534FAA183A12160005D89B /* DKBackBarButtonItem.m */; };
+		77534FC3183A12160005D89B /* DKBackButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 77534FAC183A12160005D89B /* DKBackButton.m */; };
+		77534FC4183A12160005D89B /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77534FAF183A12160005D89B /* Main_iPad.storyboard */; };
+		77534FC5183A12160005D89B /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77534FB1183A12160005D89B /* Main_iPhone.storyboard */; };
+		77534FC6183A12160005D89B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77534FB3183A12160005D89B /* InfoPlist.strings */; };
+		77534FC7183A12160005D89B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77534FB5183A12160005D89B /* Images.xcassets */; };
+		77534FC8183A12160005D89B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77534FB8183A12160005D89B /* AppDelegate.m */; };
+		77534FC9183A12160005D89B /* CodeDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77534FBA183A12160005D89B /* CodeDemoView.m */; };
+		77534FCA183A12160005D89B /* CustomNavbarBackButton-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77534FBB183A12160005D89B /* CustomNavbarBackButton-Info.plist */; };
+		77534FCB183A12160005D89B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77534FBD183A12160005D89B /* main.m */; };
+		77534FCC183A12160005D89B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77534FBF183A12160005D89B /* ViewController.m */; };
 		77A1B7211836A90600735C4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A1B7201836A90600735C4F /* Foundation.framework */; };
 		77A1B7231836A90600735C4F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A1B7221836A90600735C4F /* CoreGraphics.framework */; };
 		77A1B7251836A90600735C4F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A1B7241836A90600735C4F /* UIKit.framework */; };
-		77A1B72B1836A90600735C4F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77A1B7291836A90600735C4F /* InfoPlist.strings */; };
-		77A1B72D1836A90600735C4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A1B72C1836A90600735C4F /* main.m */; };
-		77A1B7311836A90600735C4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A1B7301836A90600735C4F /* AppDelegate.m */; };
-		77A1B7341836A90600735C4F /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77A1B7321836A90600735C4F /* Main_iPhone.storyboard */; };
-		77A1B7371836A90600735C4F /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77A1B7351836A90600735C4F /* Main_iPad.storyboard */; };
-		77A1B73A1836A90600735C4F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A1B7391836A90600735C4F /* ViewController.m */; };
-		77A1B73C1836A90600735C4F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77A1B73B1836A90600735C4F /* Images.xcassets */; };
 		77A1B7431836A90600735C4F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A1B7421836A90600735C4F /* XCTest.framework */; };
 		77A1B7441836A90600735C4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A1B7201836A90600735C4F /* Foundation.framework */; };
 		77A1B7451836A90600735C4F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A1B7241836A90600735C4F /* UIKit.framework */; };
-		77A1B74D1836A90600735C4F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77A1B74B1836A90600735C4F /* InfoPlist.strings */; };
-		77A1B74F1836A90600735C4F /* CustoNavbarBackButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A1B74E1836A90600735C4F /* CustoNavbarBackButtonTests.m */; };
-		77A1B7601836A92C00735C4F /* DKBackBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A1B75A1836A92C00735C4F /* DKBackBarButtonItem.m */; };
-		77A1B7611836A92C00735C4F /* DKBackButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A1B75C1836A92C00735C4F /* DKBackButton.m */; };
-		77A1B7621836A92C00735C4F /* back_indicator_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 77A1B75E1836A92C00735C4F /* back_indicator_image.png */; };
-		77A1B7631836A92C00735C4F /* back_indicator_image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77A1B75F1836A92C00735C4F /* back_indicator_image@2x.png */; };
-		77A1B7661836CA9B00735C4F /* CodeDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A1B7651836CA9B00735C4F /* CodeDemoView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,34 +39,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		77A1B71D1836A90600735C4F /* CustoNavbarBackButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustoNavbarBackButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77534FA6183A12160005D89B /* back_indicator_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_indicator_image.png; sourceTree = "<group>"; };
+		77534FA7183A12160005D89B /* back_indicator_image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_indicator_image@2x.png"; sourceTree = "<group>"; };
+		77534FA9183A12160005D89B /* DKBackBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKBackBarButtonItem.h; sourceTree = "<group>"; };
+		77534FAA183A12160005D89B /* DKBackBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKBackBarButtonItem.m; sourceTree = "<group>"; };
+		77534FAB183A12160005D89B /* DKBackButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKBackButton.h; sourceTree = "<group>"; };
+		77534FAC183A12160005D89B /* DKBackButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKBackButton.m; sourceTree = "<group>"; };
+		77534FB0183A12160005D89B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		77534FB2183A12160005D89B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		77534FB4183A12160005D89B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		77534FB5183A12160005D89B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		77534FB7183A12160005D89B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		77534FB8183A12160005D89B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		77534FB9183A12160005D89B /* CodeDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeDemoView.h; sourceTree = "<group>"; };
+		77534FBA183A12160005D89B /* CodeDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeDemoView.m; sourceTree = "<group>"; };
+		77534FBB183A12160005D89B /* CustomNavbarBackButton-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CustomNavbarBackButton-Info.plist"; sourceTree = "<group>"; };
+		77534FBC183A12160005D89B /* CustomNavbarBackButton-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CustomNavbarBackButton-Prefix.pch"; sourceTree = "<group>"; };
+		77534FBD183A12160005D89B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77534FBE183A12160005D89B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		77534FBF183A12160005D89B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		77A1B71D1836A90600735C4F /* CustomNavbarBackButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomNavbarBackButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77A1B7201836A90600735C4F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		77A1B7221836A90600735C4F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		77A1B7241836A90600735C4F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		77A1B7281836A90600735C4F /* CustoNavbarBackButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustoNavbarBackButton-Info.plist"; sourceTree = "<group>"; };
-		77A1B72A1836A90600735C4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		77A1B72C1836A90600735C4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		77A1B72E1836A90600735C4F /* CustoNavbarBackButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustoNavbarBackButton-Prefix.pch"; sourceTree = "<group>"; };
-		77A1B72F1836A90600735C4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		77A1B7301836A90600735C4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		77A1B7331836A90600735C4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		77A1B7361836A90600735C4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		77A1B7381836A90600735C4F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		77A1B7391836A90600735C4F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		77A1B73B1836A90600735C4F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		77A1B7411836A90600735C4F /* CustoNavbarBackButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustoNavbarBackButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77A1B7411836A90600735C4F /* CustomNavbarBackButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomNavbarBackButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77A1B7421836A90600735C4F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		77A1B74A1836A90600735C4F /* CustoNavbarBackButtonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustoNavbarBackButtonTests-Info.plist"; sourceTree = "<group>"; };
-		77A1B74C1836A90600735C4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		77A1B74E1836A90600735C4F /* CustoNavbarBackButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustoNavbarBackButtonTests.m; sourceTree = "<group>"; };
-		77A1B7591836A92C00735C4F /* DKBackBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKBackBarButtonItem.h; sourceTree = "<group>"; };
-		77A1B75A1836A92C00735C4F /* DKBackBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKBackBarButtonItem.m; sourceTree = "<group>"; };
-		77A1B75B1836A92C00735C4F /* DKBackButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKBackButton.h; sourceTree = "<group>"; };
-		77A1B75C1836A92C00735C4F /* DKBackButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKBackButton.m; sourceTree = "<group>"; };
-		77A1B75E1836A92C00735C4F /* back_indicator_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_indicator_image.png; sourceTree = "<group>"; };
-		77A1B75F1836A92C00735C4F /* back_indicator_image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_indicator_image@2x.png"; sourceTree = "<group>"; };
-		77A1B7641836CA9B00735C4F /* CodeDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeDemoView.h; sourceTree = "<group>"; };
-		77A1B7651836CA9B00735C4F /* CodeDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeDemoView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,12 +90,76 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		77534FA4183A12160005D89B /* core */ = {
+			isa = PBXGroup;
+			children = (
+				77534FA5183A12160005D89B /* resources */,
+				77534FA8183A12160005D89B /* source */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		77534FA5183A12160005D89B /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				77534FA6183A12160005D89B /* back_indicator_image.png */,
+				77534FA7183A12160005D89B /* back_indicator_image@2x.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		77534FA8183A12160005D89B /* source */ = {
+			isa = PBXGroup;
+			children = (
+				77534FA9183A12160005D89B /* DKBackBarButtonItem.h */,
+				77534FAA183A12160005D89B /* DKBackBarButtonItem.m */,
+				77534FAB183A12160005D89B /* DKBackButton.h */,
+				77534FAC183A12160005D89B /* DKBackButton.m */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		77534FAD183A12160005D89B /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				77534FAE183A12160005D89B /* resources */,
+				77534FB6183A12160005D89B /* source */,
+			);
+			path = demo;
+			sourceTree = "<group>";
+		};
+		77534FAE183A12160005D89B /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				77534FAF183A12160005D89B /* Main_iPad.storyboard */,
+				77534FB1183A12160005D89B /* Main_iPhone.storyboard */,
+				77534FB3183A12160005D89B /* InfoPlist.strings */,
+				77534FB5183A12160005D89B /* Images.xcassets */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		77534FB6183A12160005D89B /* source */ = {
+			isa = PBXGroup;
+			children = (
+				77534FB7183A12160005D89B /* AppDelegate.h */,
+				77534FB8183A12160005D89B /* AppDelegate.m */,
+				77534FB9183A12160005D89B /* CodeDemoView.h */,
+				77534FBA183A12160005D89B /* CodeDemoView.m */,
+				77534FBB183A12160005D89B /* CustomNavbarBackButton-Info.plist */,
+				77534FBC183A12160005D89B /* CustomNavbarBackButton-Prefix.pch */,
+				77534FBD183A12160005D89B /* main.m */,
+				77534FBE183A12160005D89B /* ViewController.h */,
+				77534FBF183A12160005D89B /* ViewController.m */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
 		77A1B7141836A90600735C4F = {
 			isa = PBXGroup;
 			children = (
-				77A1B7581836A92C00735C4F /* DKBackButton */,
-				77A1B7261836A90600735C4F /* CustoNavbarBackButton */,
-				77A1B7481836A90600735C4F /* CustoNavbarBackButtonTests */,
+				77534FA4183A12160005D89B /* core */,
+				77534FAD183A12160005D89B /* demo */,
 				77A1B71F1836A90600735C4F /* Frameworks */,
 				77A1B71E1836A90600735C4F /* Products */,
 			);
@@ -108,8 +168,8 @@
 		77A1B71E1836A90600735C4F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				77A1B71D1836A90600735C4F /* CustoNavbarBackButton.app */,
-				77A1B7411836A90600735C4F /* CustoNavbarBackButtonTests.xctest */,
+				77A1B71D1836A90600735C4F /* CustomNavbarBackButton.app */,
+				77A1B7411836A90600735C4F /* CustomNavbarBackButtonTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,80 +185,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		77A1B7261836A90600735C4F /* CustoNavbarBackButton */ = {
-			isa = PBXGroup;
-			children = (
-				77A1B72F1836A90600735C4F /* AppDelegate.h */,
-				77A1B7301836A90600735C4F /* AppDelegate.m */,
-				77A1B7321836A90600735C4F /* Main_iPhone.storyboard */,
-				77A1B7351836A90600735C4F /* Main_iPad.storyboard */,
-				77A1B7381836A90600735C4F /* ViewController.h */,
-				77A1B7391836A90600735C4F /* ViewController.m */,
-				77A1B7641836CA9B00735C4F /* CodeDemoView.h */,
-				77A1B7651836CA9B00735C4F /* CodeDemoView.m */,
-				77A1B73B1836A90600735C4F /* Images.xcassets */,
-				77A1B7271836A90600735C4F /* Supporting Files */,
-			);
-			path = CustoNavbarBackButton;
-			sourceTree = "<group>";
-		};
-		77A1B7271836A90600735C4F /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				77A1B7281836A90600735C4F /* CustoNavbarBackButton-Info.plist */,
-				77A1B7291836A90600735C4F /* InfoPlist.strings */,
-				77A1B72C1836A90600735C4F /* main.m */,
-				77A1B72E1836A90600735C4F /* CustoNavbarBackButton-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		77A1B7481836A90600735C4F /* CustoNavbarBackButtonTests */ = {
-			isa = PBXGroup;
-			children = (
-				77A1B74E1836A90600735C4F /* CustoNavbarBackButtonTests.m */,
-				77A1B7491836A90600735C4F /* Supporting Files */,
-			);
-			path = CustoNavbarBackButtonTests;
-			sourceTree = "<group>";
-		};
-		77A1B7491836A90600735C4F /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				77A1B74A1836A90600735C4F /* CustoNavbarBackButtonTests-Info.plist */,
-				77A1B74B1836A90600735C4F /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		77A1B7581836A92C00735C4F /* DKBackButton */ = {
-			isa = PBXGroup;
-			children = (
-				77A1B7591836A92C00735C4F /* DKBackBarButtonItem.h */,
-				77A1B75A1836A92C00735C4F /* DKBackBarButtonItem.m */,
-				77A1B75B1836A92C00735C4F /* DKBackButton.h */,
-				77A1B75C1836A92C00735C4F /* DKBackButton.m */,
-				77A1B75D1836A92C00735C4F /* resources */,
-			);
-			name = DKBackButton;
-			path = ../../DKBackButton;
-			sourceTree = "<group>";
-		};
-		77A1B75D1836A92C00735C4F /* resources */ = {
-			isa = PBXGroup;
-			children = (
-				77A1B75E1836A92C00735C4F /* back_indicator_image.png */,
-				77A1B75F1836A92C00735C4F /* back_indicator_image@2x.png */,
-			);
-			path = resources;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		77A1B71C1836A90600735C4F /* CustoNavbarBackButton */ = {
+		77A1B71C1836A90600735C4F /* CustomNavbarBackButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 77A1B7521836A90600735C4F /* Build configuration list for PBXNativeTarget "CustoNavbarBackButton" */;
+			buildConfigurationList = 77A1B7521836A90600735C4F /* Build configuration list for PBXNativeTarget "CustomNavbarBackButton" */;
 			buildPhases = (
 				77A1B7191836A90600735C4F /* Sources */,
 				77A1B71A1836A90600735C4F /* Frameworks */,
@@ -208,14 +200,14 @@
 			);
 			dependencies = (
 			);
-			name = CustoNavbarBackButton;
+			name = CustomNavbarBackButton;
 			productName = CustoNavbarBackButton;
-			productReference = 77A1B71D1836A90600735C4F /* CustoNavbarBackButton.app */;
+			productReference = 77A1B71D1836A90600735C4F /* CustomNavbarBackButton.app */;
 			productType = "com.apple.product-type.application";
 		};
-		77A1B7401836A90600735C4F /* CustoNavbarBackButtonTests */ = {
+		77A1B7401836A90600735C4F /* CustomNavbarBackButtonTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 77A1B7551836A90600735C4F /* Build configuration list for PBXNativeTarget "CustoNavbarBackButtonTests" */;
+			buildConfigurationList = 77A1B7551836A90600735C4F /* Build configuration list for PBXNativeTarget "CustomNavbarBackButtonTests" */;
 			buildPhases = (
 				77A1B73D1836A90600735C4F /* Sources */,
 				77A1B73E1836A90600735C4F /* Frameworks */,
@@ -226,9 +218,9 @@
 			dependencies = (
 				77A1B7471836A90600735C4F /* PBXTargetDependency */,
 			);
-			name = CustoNavbarBackButtonTests;
+			name = CustomNavbarBackButtonTests;
 			productName = CustoNavbarBackButtonTests;
-			productReference = 77A1B7411836A90600735C4F /* CustoNavbarBackButtonTests.xctest */;
+			productReference = 77A1B7411836A90600735C4F /* CustomNavbarBackButtonTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -248,7 +240,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 77A1B7181836A90600735C4F /* Build configuration list for PBXProject "CustoNavbarBackButton" */;
+			buildConfigurationList = 77A1B7181836A90600735C4F /* Build configuration list for PBXProject "CustomNavbarBackButton" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -261,8 +253,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				77A1B71C1836A90600735C4F /* CustoNavbarBackButton */,
-				77A1B7401836A90600735C4F /* CustoNavbarBackButtonTests */,
+				77A1B71C1836A90600735C4F /* CustomNavbarBackButton */,
+				77A1B7401836A90600735C4F /* CustomNavbarBackButtonTests */,
 			);
 		};
 /* End PBXProject section */
@@ -272,12 +264,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77A1B7371836A90600735C4F /* Main_iPad.storyboard in Resources */,
-				77A1B7631836A92C00735C4F /* back_indicator_image@2x.png in Resources */,
-				77A1B73C1836A90600735C4F /* Images.xcassets in Resources */,
-				77A1B7621836A92C00735C4F /* back_indicator_image.png in Resources */,
-				77A1B7341836A90600735C4F /* Main_iPhone.storyboard in Resources */,
-				77A1B72B1836A90600735C4F /* InfoPlist.strings in Resources */,
+				77534FC5183A12160005D89B /* Main_iPhone.storyboard in Resources */,
+				77534FC4183A12160005D89B /* Main_iPad.storyboard in Resources */,
+				77534FC0183A12160005D89B /* back_indicator_image.png in Resources */,
+				77534FC7183A12160005D89B /* Images.xcassets in Resources */,
+				77534FC1183A12160005D89B /* back_indicator_image@2x.png in Resources */,
+				77534FC6183A12160005D89B /* InfoPlist.strings in Resources */,
+				77534FCA183A12160005D89B /* CustomNavbarBackButton-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +278,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77A1B74D1836A90600735C4F /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,12 +288,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77A1B7661836CA9B00735C4F /* CodeDemoView.m in Sources */,
-				77A1B7601836A92C00735C4F /* DKBackBarButtonItem.m in Sources */,
-				77A1B73A1836A90600735C4F /* ViewController.m in Sources */,
-				77A1B7611836A92C00735C4F /* DKBackButton.m in Sources */,
-				77A1B7311836A90600735C4F /* AppDelegate.m in Sources */,
-				77A1B72D1836A90600735C4F /* main.m in Sources */,
+				77534FCC183A12160005D89B /* ViewController.m in Sources */,
+				77534FCB183A12160005D89B /* main.m in Sources */,
+				77534FC9183A12160005D89B /* CodeDemoView.m in Sources */,
+				77534FC2183A12160005D89B /* DKBackBarButtonItem.m in Sources */,
+				77534FC3183A12160005D89B /* DKBackButton.m in Sources */,
+				77534FC8183A12160005D89B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +301,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77A1B74F1836A90600735C4F /* CustoNavbarBackButtonTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,40 +309,32 @@
 /* Begin PBXTargetDependency section */
 		77A1B7471836A90600735C4F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 77A1B71C1836A90600735C4F /* CustoNavbarBackButton */;
+			target = 77A1B71C1836A90600735C4F /* CustomNavbarBackButton */;
 			targetProxy = 77A1B7461836A90600735C4F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		77A1B7291836A90600735C4F /* InfoPlist.strings */ = {
+		77534FAF183A12160005D89B /* Main_iPad.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				77A1B72A1836A90600735C4F /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		77A1B7321836A90600735C4F /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				77A1B7331836A90600735C4F /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		77A1B7351836A90600735C4F /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				77A1B7361836A90600735C4F /* Base */,
+				77534FB0183A12160005D89B /* Base */,
 			);
 			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
-		77A1B74B1836A90600735C4F /* InfoPlist.strings */ = {
+		77534FB1183A12160005D89B /* Main_iPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				77A1B74C1836A90600735C4F /* en */,
+				77534FB2183A12160005D89B /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		77534FB3183A12160005D89B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77534FB4183A12160005D89B /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -441,9 +424,9 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CustoNavbarBackButton/CustoNavbarBackButton-Prefix.pch";
-				INFOPLIST_FILE = "CustoNavbarBackButton/CustoNavbarBackButton-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "demo/source/CustomNavbarBackButton-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/demo/source/CustomNavbarBackButton-Info.plist";
+				PRODUCT_NAME = CustomNavbarBackButton;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -457,9 +440,9 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CustoNavbarBackButton/CustoNavbarBackButton-Prefix.pch";
-				INFOPLIST_FILE = "CustoNavbarBackButton/CustoNavbarBackButton-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "demo/source/CustomNavbarBackButton-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/demo/source/CustomNavbarBackButton-Info.plist";
+				PRODUCT_NAME = CustomNavbarBackButton;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -482,7 +465,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "CustoNavbarBackButtonTests/CustoNavbarBackButtonTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CustomNavbarBackButtonTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -501,7 +484,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CustoNavbarBackButton/CustoNavbarBackButton-Prefix.pch";
 				INFOPLIST_FILE = "CustoNavbarBackButtonTests/CustoNavbarBackButtonTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CustomNavbarBackButtonTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -510,7 +493,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		77A1B7181836A90600735C4F /* Build configuration list for PBXProject "CustoNavbarBackButton" */ = {
+		77A1B7181836A90600735C4F /* Build configuration list for PBXProject "CustomNavbarBackButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				77A1B7501836A90600735C4F /* Debug */,
@@ -519,21 +502,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		77A1B7521836A90600735C4F /* Build configuration list for PBXNativeTarget "CustoNavbarBackButton" */ = {
+		77A1B7521836A90600735C4F /* Build configuration list for PBXNativeTarget "CustomNavbarBackButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				77A1B7531836A90600735C4F /* Debug */,
 				77A1B7541836A90600735C4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		77A1B7551836A90600735C4F /* Build configuration list for PBXNativeTarget "CustoNavbarBackButtonTests" */ = {
+		77A1B7551836A90600735C4F /* Build configuration list for PBXNativeTarget "CustomNavbarBackButtonTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				77A1B7561836A90600735C4F /* Debug */,
 				77A1B7571836A90600735C4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
