@@ -37,6 +37,7 @@
 
 -(void)awakeFromNib{
     
+    
 }
 - (void)startUp{
     
@@ -66,7 +67,7 @@
 
 #pragma mark UIButton rewritten methods
 - (void)setTitle:(NSString *)title{
-    self.title = title;
+
     DKBackButton *btn = (DKBackButton *)self.customView;
     [btn setTitle:title forState:UIControlStateNormal];
     
@@ -75,13 +76,15 @@
     [label setText:self.title];
     [label sizeToFit];
     
+    
+    
     [btn setFrame:CGRectMake(0, 0, label.frame.size.width+22+btn.imageView.frame.size.width , 44)];
     [btn makeOffset];
 
 }
 
 - (void)setImage:(UIImage *)image{
-    self.image = image;
+ 
      DKBackButton *btn = (DKBackButton *)self.customView;
     
     UILabel *label = [[UILabel alloc] init];
@@ -94,4 +97,12 @@
     [btn makeOffset];
     
 }
+
+- (void)setHidden:(BOOL)hidden{
+    
+    DKBackButton *btn = (DKBackButton *)self.customView;
+   
+    //self.hidden = hidden;
+    [btn setHidden:hidden];
+   }
 @end

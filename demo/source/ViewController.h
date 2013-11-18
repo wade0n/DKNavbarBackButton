@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DKBackBarButtonItem.h"
 
 @interface ViewController : UITableViewController
+@property (weak, nonatomic) IBOutlet DKBackBarButtonItem *item;
+
 
 @end

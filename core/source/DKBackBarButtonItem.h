@@ -10,4 +10,5 @@
 
 @interface DKBackBarButtonItem : UIBarButtonItem
 
+@property(nonatomic,getter=isHidden) BOOL hidden;
 @end

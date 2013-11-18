@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "77A1B71C1836A90600735C4F"
-               BuildableName = "CustoNavbarBackButton.app"
+               BuildableName = "CustomNavbarBackButton.app"
                BlueprintName = "CustomNavbarBackButton"
                ReferencedContainer = "container:CustomNavbarBackButton.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "77A1B7401836A90600735C4F"
-               BuildableName = "CustoNavbarBackButtonTests.xctest"
+               BuildableName = "CustomNavbarBackButtonTests.xctest"
                BlueprintName = "CustomNavbarBackButtonTests"
                ReferencedContainer = "container:CustomNavbarBackButton.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "77A1B71C1836A90600735C4F"
-            BuildableName = "CustoNavbarBackButton.app"
+            BuildableName = "CustomNavbarBackButton.app"
             BlueprintName = "CustomNavbarBackButton"
             ReferencedContainer = "container:CustomNavbarBackButton.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "77A1B71C1836A90600735C4F"
-            BuildableName = "CustoNavbarBackButton.app"
+            BuildableName = "CustomNavbarBackButton.app"
             BlueprintName = "CustomNavbarBackButton"
             ReferencedContainer = "container:CustomNavbarBackButton.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "77A1B71C1836A90600735C4F"
-            BuildableName = "CustoNavbarBackButton.app"
+            BuildableName = "CustomNavbarBackButton.app"
             BlueprintName = "CustomNavbarBackButton"
             ReferencedContainer = "container:CustomNavbarBackButton.xcodeproj">
          </BuildableReference>

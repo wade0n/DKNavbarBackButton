@@ -19,6 +19,10 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
+    //[_item setHidden:YES];
+    
+    //self.navigationController.navigationItem.hidesBackButton = YES;
+    
 }
 
 - (void)didReceiveMemoryWarning
