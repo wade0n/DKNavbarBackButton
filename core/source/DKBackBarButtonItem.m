@@ -70,8 +70,11 @@
 #pragma mark UIButton rewritten methods
 - (void)setTitle:(NSString *)title{
     
-    NSString *_titleCust = [NSString    stringWithString:title];
-    if (!_titleCust) {
+    NSString *_titleCust = nil;
+    if (title) {
+        _titleCust = title;
+    }
+    else {
         _titleCust = @"";
     }
     
