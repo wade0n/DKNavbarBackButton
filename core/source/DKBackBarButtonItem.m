@@ -36,8 +36,12 @@
 
 - (void)startUp{
     DKBackButton *btn = [DKBackButton buttonWithType:UIButtonTypeSystem];
-    [btn setTitle:self.title forState:UIControlStateNormal];
-    //[btn addTarget:self action:self.action forControlEvents:UIControlEventTouchUpInside];
+    if (self.title) {
+        [btn setTitle:self.title forState:UIControlStateNormal];
+    }
+    else{
+        [btn setTitle:NSLocalizedString(@"Back", @"This is title of the back bacr button.") forState:UIControlStateNormal];
+    }
     
     UILabel *label = [[UILabel alloc] init];
     label.font = [UIFont systemFontOfSize:15.0f];
