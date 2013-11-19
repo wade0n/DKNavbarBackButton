@@ -10,7 +10,6 @@
 
 @interface DKBackButton : UIButton
 
-
 - (void)makeOffset;
 
 @end
