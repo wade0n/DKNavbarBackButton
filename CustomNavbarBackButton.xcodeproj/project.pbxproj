@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		772BA25C183B85B200B81A41 /* CodeExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 772BA25B183B85B200B81A41 /* CodeExampleViewController.m */; };
 		77534FC0183A12160005D89B /* back_indicator_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 77534FA6183A12160005D89B /* back_indicator_image.png */; };
 		77534FC1183A12160005D89B /* back_indicator_image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77534FA7183A12160005D89B /* back_indicator_image@2x.png */; };
 		77534FC2183A12160005D89B /* DKBackBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 77534FAA183A12160005D89B /* DKBackBarButtonItem.m */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		772BA25A183B85B200B81A41 /* CodeExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeExampleViewController.h; sourceTree = "<group>"; };
+		772BA25B183B85B200B81A41 /* CodeExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeExampleViewController.m; sourceTree = "<group>"; };
 		77534FA6183A12160005D89B /* back_indicator_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_indicator_image.png; sourceTree = "<group>"; };
 		77534FA7183A12160005D89B /* back_indicator_image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_indicator_image@2x.png"; sourceTree = "<group>"; };
 		77534FA9183A12160005D89B /* DKBackBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKBackBarButtonItem.h; sourceTree = "<group>"; };
@@ -151,6 +154,8 @@
 				77534FBD183A12160005D89B /* main.m */,
 				77534FBE183A12160005D89B /* ViewController.h */,
 				77534FBF183A12160005D89B /* ViewController.m */,
+				772BA25A183B85B200B81A41 /* CodeExampleViewController.h */,
+				772BA25B183B85B200B81A41 /* CodeExampleViewController.m */,
 			);
 			path = source;
 			sourceTree = "<group>";
@@ -288,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				772BA25C183B85B200B81A41 /* CodeExampleViewController.m in Sources */,
 				77534FCC183A12160005D89B /* ViewController.m in Sources */,
 				77534FCB183A12160005D89B /* main.m in Sources */,
 				77534FC9183A12160005D89B /* CodeDemoView.m in Sources */,

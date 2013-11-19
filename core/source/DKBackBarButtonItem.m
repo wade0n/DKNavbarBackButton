@@ -29,6 +29,16 @@
     return self;
 }
 
+- (id)initWithTitle:(NSString *)title{
+    self = [super init];
+    
+    if (self) {
+        self.title = title;
+        [self startUp];
+    }
+    return self;
+}
+
 -(void)awakeFromNib{
     
     
@@ -52,23 +62,32 @@
     
     [btn setFrame:CGRectMake(0, 0, label.frame.size.width+22+btn.imageView.frame.size.width , 44)];
     [btn makeOffset];
-    
+       
     [self setCustomView:btn];
 }
 
 
 #pragma mark UIButton rewritten methods
 - (void)setTitle:(NSString *)title{
+    
+    NSString *_titleCust = [NSString    stringWithString:title];
+    if (!_titleCust) {
+        _titleCust = @"";
+    }
+    
     DKBackButton *btn = (DKBackButton *)self.customView;
-    [btn setTitle:title forState:UIControlStateNormal];
+    [btn setTitle:_titleCust forState:UIControlStateNormal];
     
     UILabel *label = [[UILabel alloc] init];
     label.font = [UIFont systemFontOfSize:15.0f];
-    [label setText:self.title];
+    [label setText:_titleCust];
     [label sizeToFit];
     
     [btn setFrame:CGRectMake(0, 0, label.frame.size.width+22+btn.imageView.frame.size.width , 44)];
-    [btn makeOffset];
+    [btn setterOffset];
+
+   
+    
 }
 
 - (void)setImage:(UIImage *)image{
@@ -81,7 +100,7 @@
     
     [btn setImage:[[UIImage imageNamed:@"back_indicator_image"] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate] forState:UIControlStateNormal];
     [btn setFrame:CGRectMake(0, 0, label.frame.size.width+22+btn.imageView.frame.size.width , 44)];
-    [btn makeOffset];
+    [btn setterOffset];
 }
 
 
