@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface DKBackBarButtonItem : UIBarButtonItem
-
-@property(nonatomic,getter=isHidden) BOOL hidden;
+{
+    
+}
+@property (nonatomic, getter=isHidden) BOOL hidden;
 @end
