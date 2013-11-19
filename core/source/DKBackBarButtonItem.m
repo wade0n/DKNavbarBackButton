@@ -55,7 +55,7 @@
     
     UILabel *label = [[UILabel alloc] init];
     label.font = [UIFont systemFontOfSize:15.0f];
-    [label setText:self.title];
+    [label setText:btn.titleLabel.text];
     [label sizeToFit];
     
     [btn setImage:[[UIImage imageNamed:@"back_indicator_image"] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate] forState:UIControlStateNormal];
@@ -68,6 +68,7 @@
 
 
 #pragma mark UIButton rewritten methods
+
 - (void)setTitle:(NSString *)title{
     
     NSString *_titleCust = nil;
@@ -75,7 +76,7 @@
         _titleCust = title;
     }
     else {
-        _titleCust = @"";
+        _titleCust = @"Back";
     }
     
     DKBackButton *btn = (DKBackButton *)self.customView;
