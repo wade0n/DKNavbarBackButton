@@ -132,4 +132,10 @@
     DKBackButton *btn = (DKBackButton *)self.customView;
     [btn setHidden:hidden];
 }
+
+-(void)setTintColor:(UIColor *)tintColor{
+    [super setTintColor:tintColor];
+    [self.customView setTintColor:tintColor];
+}
+
 @end
