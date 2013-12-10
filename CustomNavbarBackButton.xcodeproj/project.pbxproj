@@ -432,6 +432,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "demo/source/CustomNavbarBackButton-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/demo/source/CustomNavbarBackButton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = CustomNavbarBackButton;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -448,6 +449,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "demo/source/CustomNavbarBackButton-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/demo/source/CustomNavbarBackButton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = CustomNavbarBackButton;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
