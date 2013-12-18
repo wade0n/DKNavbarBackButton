@@ -1,0 +1,51 @@
+
+/* Class = "IBUINavigationItem"; title = "12345678909"; ObjectID = "13O-6o-a9L"; */
+"13O-6o-a9L.title" = "12345678909";
+
+/* Class = "IBUINavigationItem"; title = "To find any "; ObjectID = "3i0-iB-8s1"; */
+"3i0-iB-8s1.title" = "To find any ";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Compare with  default  back button"; ObjectID = "3y3-N6-zQl"; */
+"3y3-N6-zQl.headerTitle" = "Compare with  default  back button";
+
+/* Class = "IBUITableViewSection"; headerTitle = "add programmatically"; ObjectID = "8jY-3h-yls"; */
+"8jY-3h-yls.headerTitle" = "add programmatically";
+
+/* Class = "IBUINavigationItem"; title = "Try"; ObjectID = "9kY-p4-cy2"; */
+"9kY-p4-cy2.title" = "Try";
+
+/* Class = "IBUIButton"; normalTitle = "Check add from code"; ObjectID = "AzI-al-XQk"; */
+"AzI-al-XQk.normalTitle" = "Check add from code";
+
+/* Class = "IBUIBarButtonItem"; title = "Back Button"; ObjectID = "Ck9-b5-T41"; */
+"Ck9-b5-T41.title" = "Back Button";
+
+/* Class = "IBUIBarButtonItem"; title = "Back Button"; ObjectID = "KMC-Ee-E0z"; */
+"KMC-Ee-E0z.title" = "Back Button";
+
+/* Class = "IBUITableViewSection"; headerTitle = "add to custom navbar"; ObjectID = "LrO-Hi-XLC"; */
+"LrO-Hi-XLC.headerTitle" = "add to custom navbar";
+
+/* Class = "IBUIBarButtonItem"; title = "Back Button"; ObjectID = "NeH-Pl-VYl"; */
+"NeH-Pl-VYl.title" = "Back Button";
+
+/* Class = "IBUIButton"; normalTitle = "Compare with default back button"; ObjectID = "Nqz-vQ-bZN"; */
+"Nqz-vQ-bZN.normalTitle" = "Compare with default back button";
+
+/* Class = "IBUIBarButtonItem"; title = "other Item"; ObjectID = "Zto-a0-zXb"; */
+"Zto-a0-zXb.title" = "other Item";
+
+/* Class = "IBUITextView"; text = "DKBackBarButtonItem *backBtn = [[DKBackBarButtonItem alloc] init];\n    [self.navigationItem setLeftBarButtonItem:backBtn];"; ObjectID = "i9x-m9-Hhm"; */
+"i9x-m9-Hhm.text" = "DKBackBarButtonItem *backBtn = [[DKBackBarButtonItem alloc] init];\n    [self.navigationItem setLeftBarButtonItem:backBtn];";
+
+/* Class = "IBUINavigationItem"; title = "Differences"; ObjectID = "p1L-6Z-zHx"; */
+"p1L-6Z-zHx.title" = "Differences";
+
+/* Class = "IBUIBarButtonItem"; title = "other Item"; ObjectID = "sSL-mO-Clz"; */
+"sSL-mO-Clz.title" = "other Item";
+
+/* Class = "IBUINavigationItem"; title = "CustomNavBar"; ObjectID = "uaY-6j-pzU"; */
+"uaY-6j-pzU.title" = "CustomNavBar";
+
+/* Class = "IBUINavigationItem"; title = "Code"; ObjectID = "xoL-vg-FbK"; */
+"xoL-vg-FbK.title" = "Code";

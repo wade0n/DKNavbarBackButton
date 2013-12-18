@@ -30,7 +30,7 @@
 	// Do any additional setup after loading the view.
     
     DKBackBarButtonItem *item = [[DKBackBarButtonItem alloc] init];
-    [item setTitle:@""];
+    [item setTitle:nil];
     [_navItem setLeftBarButtonItem:item];
     
 }

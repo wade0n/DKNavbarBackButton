@@ -76,7 +76,7 @@
         _titleCust = title;
     }
     else {
-        _titleCust = @"Back";
+        _titleCust = NSLocalizedStringFromTable(@"Back", @"DKBackButtonLocalizable", @"There is localization for all strings");
     }
     
     DKBackButton *btn = (DKBackButton *)self.customView;

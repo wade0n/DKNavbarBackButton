@@ -27,6 +27,7 @@
 		77A1B7431836A90600735C4F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A1B7421836A90600735C4F /* XCTest.framework */; };
 		77A1B7441836A90600735C4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A1B7201836A90600735C4F /* Foundation.framework */; };
 		77A1B7451836A90600735C4F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A1B7241836A90600735C4F /* UIKit.framework */; };
+		77EDBDF71861A255007E71CF /* DKBackButtonLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77EDBDF91861A255007E71CF /* DKBackButtonLocalizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,11 @@
 		77A1B7241836A90600735C4F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		77A1B7411836A90600735C4F /* CustomNavbarBackButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomNavbarBackButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77A1B7421836A90600735C4F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		77EDBDF81861A255007E71CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = Base.lproj/DKBackButtonLocalizable.strings; sourceTree = "<group>"; };
+		77EDBDFC1861A2BD007E71CF /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main_iPad.strings; sourceTree = "<group>"; };
+		77EDBDFD1861A2BD007E71CF /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main_iPhone.strings; sourceTree = "<group>"; };
+		77EDBDFE1861A2BD007E71CF /* ru */ = {isa = PBXFileReference; lastKnownFileType = file; name = ru; path = ru.lproj/DKBackButtonLocalizable.strings; sourceTree = "<group>"; };
+		77EDBDFF1861A2BD007E71CF /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +124,7 @@
 				77534FAA183A12160005D89B /* DKBackBarButtonItem.m */,
 				77534FAB183A12160005D89B /* DKBackButton.h */,
 				77534FAC183A12160005D89B /* DKBackButton.m */,
+				77EDBDF91861A255007E71CF /* DKBackButtonLocalizable.strings */,
 			);
 			path = source;
 			sourceTree = "<group>";
@@ -238,7 +245,7 @@
 				ORGANIZATIONNAME = "Дмитрий Калашников";
 				TargetAttributes = {
 					77A1B71C1836A90600735C4F = {
-						DevelopmentTeam = 2JUUAJV3A8;
+						DevelopmentTeam = 24RC87V7LH;
 					};
 					77A1B7401836A90600735C4F = {
 						TestTargetID = 77A1B71C1836A90600735C4F;
@@ -252,6 +259,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 77A1B7141836A90600735C4F;
 			productRefGroup = 77A1B71E1836A90600735C4F /* Products */;
@@ -274,6 +282,7 @@
 				77534FC0183A12160005D89B /* back_indicator_image.png in Resources */,
 				77534FC7183A12160005D89B /* Images.xcassets in Resources */,
 				77534FC1183A12160005D89B /* back_indicator_image@2x.png in Resources */,
+				77EDBDF71861A255007E71CF /* DKBackButtonLocalizable.strings in Resources */,
 				77534FC6183A12160005D89B /* InfoPlist.strings in Resources */,
 				77534FCA183A12160005D89B /* CustomNavbarBackButton-Info.plist in Resources */,
 			);
@@ -325,6 +334,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				77534FB0183A12160005D89B /* Base */,
+				77EDBDFC1861A2BD007E71CF /* ru */,
 			);
 			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
@@ -333,6 +343,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				77534FB2183A12160005D89B /* Base */,
+				77EDBDFD1861A2BD007E71CF /* ru */,
 			);
 			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
@@ -341,8 +352,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				77534FB4183A12160005D89B /* en */,
+				77EDBDFF1861A2BD007E71CF /* ru */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		77EDBDF91861A255007E71CF /* DKBackButtonLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77EDBDF81861A255007E71CF /* Base */,
+				77EDBDFE1861A2BD007E71CF /* ru */,
+			);
+			name = DKBackButtonLocalizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

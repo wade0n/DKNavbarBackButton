@@ -1,0 +1,9 @@
+/* 
+  DKBackButtonLocalizable.strings
+  CustomNavbarBackButton
+
+  Created by Дмитрий Калашников on 18/12/13.
+  Copyright (c) 2013 Дмитрий Калашников. All rights reserved.
+*/
+
+"Back"  = "Back";
