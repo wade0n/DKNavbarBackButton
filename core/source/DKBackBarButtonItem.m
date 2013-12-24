@@ -50,7 +50,7 @@
         [btn setTitle:self.title forState:UIControlStateNormal];
     }
     else{
-        [btn setTitle:NSLocalizedString(@"Back", @"This is title of the back bacr button.") forState:UIControlStateNormal];
+        [btn setTitle:NSLocalizedStringFromTable(@"Back", @"DKBackButtonLocalizable", @"There is localization for all strings") forState:UIControlStateNormal];
     }
     
     UILabel *label = [[UILabel alloc] init];
