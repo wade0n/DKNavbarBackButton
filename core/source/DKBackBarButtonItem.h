@@ -13,4 +13,6 @@
     
 }
 @property (nonatomic, getter=isHidden) BOOL hidden;
+
+- (id)initWithTitle:(NSString *)title;
 @end
