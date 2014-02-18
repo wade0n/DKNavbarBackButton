@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7724226B18B34F8E00200218 /* back_indicator_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 7724226618B34F8E00200218 /* back_indicator_image.png */; };
+		7724226C18B34F8E00200218 /* back_indicator_image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7724226718B34F8E00200218 /* back_indicator_image@2x.png */; };
+		7724226D18B34F8E00200218 /* DKBackButtonLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7724226818B34F8E00200218 /* DKBackButtonLocalizable.strings */; };
 		772BA25C183B85B200B81A41 /* CodeExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 772BA25B183B85B200B81A41 /* CodeExampleViewController.m */; };
-		77534FC0183A12160005D89B /* back_indicator_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 77534FA6183A12160005D89B /* back_indicator_image.png */; };
-		77534FC1183A12160005D89B /* back_indicator_image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77534FA7183A12160005D89B /* back_indicator_image@2x.png */; };
 		77534FC2183A12160005D89B /* DKBackBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 77534FAA183A12160005D89B /* DKBackBarButtonItem.m */; };
 		77534FC3183A12160005D89B /* DKBackButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 77534FAC183A12160005D89B /* DKBackButton.m */; };
 		77534FC4183A12160005D89B /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77534FAF183A12160005D89B /* Main_iPad.storyboard */; };
@@ -27,7 +28,6 @@
 		77A1B7431836A90600735C4F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A1B7421836A90600735C4F /* XCTest.framework */; };
 		77A1B7441836A90600735C4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A1B7201836A90600735C4F /* Foundation.framework */; };
 		77A1B7451836A90600735C4F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A1B7241836A90600735C4F /* UIKit.framework */; };
-		77EDBDF71861A255007E71CF /* DKBackButtonLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77EDBDF91861A255007E71CF /* DKBackButtonLocalizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,10 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7724226618B34F8E00200218 /* back_indicator_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_indicator_image.png; sourceTree = "<group>"; };
+		7724226718B34F8E00200218 /* back_indicator_image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_indicator_image@2x.png"; sourceTree = "<group>"; };
+		7724226918B34F8E00200218 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/DKBackButtonLocalizable.strings; sourceTree = "<group>"; };
+		7724226A18B34F8E00200218 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/DKBackButtonLocalizable.strings; sourceTree = "<group>"; };
 		772BA25A183B85B200B81A41 /* CodeExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeExampleViewController.h; sourceTree = "<group>"; };
 		772BA25B183B85B200B81A41 /* CodeExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeExampleViewController.m; sourceTree = "<group>"; };
-		77534FA6183A12160005D89B /* back_indicator_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_indicator_image.png; sourceTree = "<group>"; };
-		77534FA7183A12160005D89B /* back_indicator_image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_indicator_image@2x.png"; sourceTree = "<group>"; };
 		77534FA9183A12160005D89B /* DKBackBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKBackBarButtonItem.h; sourceTree = "<group>"; };
 		77534FAA183A12160005D89B /* DKBackBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKBackBarButtonItem.m; sourceTree = "<group>"; };
 		77534FAB183A12160005D89B /* DKBackButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKBackButton.h; sourceTree = "<group>"; };
@@ -68,10 +70,8 @@
 		77A1B7241836A90600735C4F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		77A1B7411836A90600735C4F /* CustomNavbarBackButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomNavbarBackButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77A1B7421836A90600735C4F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		77EDBDF81861A255007E71CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = Base.lproj/DKBackButtonLocalizable.strings; sourceTree = "<group>"; };
 		77EDBDFC1861A2BD007E71CF /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main_iPad.strings; sourceTree = "<group>"; };
 		77EDBDFD1861A2BD007E71CF /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main_iPhone.strings; sourceTree = "<group>"; };
-		77EDBDFE1861A2BD007E71CF /* ru */ = {isa = PBXFileReference; lastKnownFileType = file; name = ru; path = ru.lproj/DKBackButtonLocalizable.strings; sourceTree = "<group>"; };
 		77EDBDFF1861A2BD007E71CF /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,22 +99,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7724226518B34F8E00200218 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				7724226618B34F8E00200218 /* back_indicator_image.png */,
+				7724226718B34F8E00200218 /* back_indicator_image@2x.png */,
+				7724226818B34F8E00200218 /* DKBackButtonLocalizable.strings */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
 		77534FA4183A12160005D89B /* core */ = {
 			isa = PBXGroup;
 			children = (
-				77534FA5183A12160005D89B /* resources */,
+				7724226518B34F8E00200218 /* resources */,
 				77534FA8183A12160005D89B /* source */,
 			);
 			path = core;
-			sourceTree = "<group>";
-		};
-		77534FA5183A12160005D89B /* resources */ = {
-			isa = PBXGroup;
-			children = (
-				77534FA6183A12160005D89B /* back_indicator_image.png */,
-				77534FA7183A12160005D89B /* back_indicator_image@2x.png */,
-			);
-			path = resources;
 			sourceTree = "<group>";
 		};
 		77534FA8183A12160005D89B /* source */ = {
@@ -124,7 +125,6 @@
 				77534FAA183A12160005D89B /* DKBackBarButtonItem.m */,
 				77534FAB183A12160005D89B /* DKBackButton.h */,
 				77534FAC183A12160005D89B /* DKBackButton.m */,
-				77EDBDF91861A255007E71CF /* DKBackButtonLocalizable.strings */,
 			);
 			path = source;
 			sourceTree = "<group>";
@@ -279,10 +279,10 @@
 			files = (
 				77534FC5183A12160005D89B /* Main_iPhone.storyboard in Resources */,
 				77534FC4183A12160005D89B /* Main_iPad.storyboard in Resources */,
-				77534FC0183A12160005D89B /* back_indicator_image.png in Resources */,
+				7724226B18B34F8E00200218 /* back_indicator_image.png in Resources */,
+				7724226C18B34F8E00200218 /* back_indicator_image@2x.png in Resources */,
 				77534FC7183A12160005D89B /* Images.xcassets in Resources */,
-				77534FC1183A12160005D89B /* back_indicator_image@2x.png in Resources */,
-				77EDBDF71861A255007E71CF /* DKBackButtonLocalizable.strings in Resources */,
+				7724226D18B34F8E00200218 /* DKBackButtonLocalizable.strings in Resources */,
 				77534FC6183A12160005D89B /* InfoPlist.strings in Resources */,
 				77534FCA183A12160005D89B /* CustomNavbarBackButton-Info.plist in Resources */,
 			);
@@ -330,6 +330,15 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		7724226818B34F8E00200218 /* DKBackButtonLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7724226918B34F8E00200218 /* Base */,
+				7724226A18B34F8E00200218 /* ru */,
+			);
+			name = DKBackButtonLocalizable.strings;
+			sourceTree = "<group>";
+		};
 		77534FAF183A12160005D89B /* Main_iPad.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -355,15 +364,6 @@
 				77EDBDFF1861A2BD007E71CF /* ru */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		77EDBDF91861A255007E71CF /* DKBackButtonLocalizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				77EDBDF81861A255007E71CF /* Base */,
-				77EDBDFE1861A2BD007E71CF /* ru */,
-			);
-			name = DKBackButtonLocalizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
