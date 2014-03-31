@@ -23,8 +23,7 @@
 - (id)initWithCoder:(NSCoder *)aDecoder{
     self = [super initWithCoder:aDecoder];
     if (self) {
-        
-        [self startUp];
+    
     }
     return self;
 }
@@ -40,7 +39,7 @@
 }
 
 -(void)awakeFromNib{
-    
+    [self startUp];
     
 }
 
@@ -90,18 +89,15 @@
     [btn setFrame:CGRectMake(0, 0, label.frame.size.width+22+btn.imageView.frame.size.width , 44)];
     [btn setterOffset];
 
-   
-    
 }
 
 - (void)setImage:(UIImage *)image{
-    DKBackButton *btn = (DKBackButton *)self.customView;
-    
     UILabel *label = [[UILabel alloc] init];
     label.font = [UIFont systemFontOfSize:15.0f];
     [label setText:self.title];
     [label sizeToFit];
     
+    DKBackButton *btn = (DKBackButton *)self.customView;
     [btn setImage:[[UIImage imageNamed:@"back_indicator_image"] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate] forState:UIControlStateNormal];
     [btn setFrame:CGRectMake(0, 0, label.frame.size.width+22+btn.imageView.frame.size.width , 44)];
     [btn setterOffset];
@@ -119,7 +115,6 @@
 }
 
 - (void)setAction:(SEL)action{
-    [super setAction:action];
     DKBackButton *btn = (DKBackButton *)self.customView;
     [btn addTarget:self.target action:action forControlEvents:UIControlEventTouchUpInside];
 }

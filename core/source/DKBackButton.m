@@ -15,9 +15,7 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        // Initialization code
-        
-        
+   
     }
     return self;
 }
@@ -26,8 +24,7 @@
     [self setClipsToBounds:NO];
     [self setImageEdgeInsets:UIEdgeInsetsMake(0, - 15, 0, 0)];
     [self setTitleEdgeInsets:UIEdgeInsetsMake(0, self.imageEdgeInsets.left+15, 0, 0)];
-//    [self.imageView setFrame:CGRectMake(-30.5, self.imageView.frame.origin.y, self.imageView.frame.size.width, self.imageView.frame.size.height)];
-//    [self.titleLabel setFrame:CGRectMake(self.imageView.frame.origin.x + self.imageView.frame.size.width + 12.0, self.titleLabel.frame.origin.y, self.titleLabel.frame.size.width, self.titleLabel.frame.size.height)];
+    
     [self.titleLabel setFont:[UIFont systemFontOfSize:17.0f]];
 }
 
