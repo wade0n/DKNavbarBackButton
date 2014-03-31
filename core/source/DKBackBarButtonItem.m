@@ -44,25 +44,25 @@
 }
 
 - (void)startUp{
-    DKBackButton *btn = [DKBackButton buttonWithType:UIButtonTypeSystem];
+    _btn = [DKBackButton buttonWithType:UIButtonTypeSystem];
     if (self.title) {
-        [btn setTitle:self.title forState:UIControlStateNormal];
+        [_btn setTitle:self.title forState:UIControlStateNormal];
     }
     else{
-        [btn setTitle:NSLocalizedStringFromTable(@"Back", @"DKBackButtonLocalizable", @"There is localization for all strings") forState:UIControlStateNormal];
+        [_btn setTitle:NSLocalizedStringFromTable(@"Back", @"DKBackButtonLocalizable", @"There is localization for all strings") forState:UIControlStateNormal];
     }
     
     UILabel *label = [[UILabel alloc] init];
     label.font = [UIFont systemFontOfSize:15.0f];
-    [label setText:btn.titleLabel.text];
+    [label setText:_btn.titleLabel.text];
     [label sizeToFit];
     
-    [btn setImage:[[UIImage imageNamed:@"back_indicator_image"] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate] forState:UIControlStateNormal];
+    [_btn setImage:[[UIImage imageNamed:@"back_indicator_image"] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate] forState:UIControlStateNormal];
     
-    [btn setFrame:CGRectMake(0, 0, label.frame.size.width+22+btn.imageView.frame.size.width , 44)];
-    [btn makeOffset];
+    [_btn setFrame:CGRectMake(0, 0, label.frame.size.width+22+_btn.imageView.frame.size.width , 44)];
+    [_btn makeOffset];
        
-    [self setCustomView:btn];
+    [self setCustomView:_btn];
 }
 
 
@@ -78,17 +78,16 @@
         _titleCust = NSLocalizedStringFromTable(@"Back", @"DKBackButtonLocalizable", @"There is localization for all strings");
     }
     
-    DKBackButton *btn = (DKBackButton *)self.customView;
-    [btn setTitle:_titleCust forState:UIControlStateNormal];
+    _btn = (DKBackButton *)self.customView;
+    [_btn setTitle:_titleCust forState:UIControlStateNormal];
     
     UILabel *label = [[UILabel alloc] init];
     label.font = [UIFont systemFontOfSize:15.0f];
     [label setText:_titleCust];
     [label sizeToFit];
     
-    [btn setFrame:CGRectMake(0, 0, label.frame.size.width+22+btn.imageView.frame.size.width , 44)];
-    [btn setterOffset];
-
+    [_btn setFrame:CGRectMake(0, 0, label.frame.size.width+22+_btn.imageView.frame.size.width , 44)];
+    [_btn setterOffset];
 }
 
 - (void)setImage:(UIImage *)image{
@@ -97,10 +96,10 @@
     [label setText:self.title];
     [label sizeToFit];
     
-    DKBackButton *btn = (DKBackButton *)self.customView;
-    [btn setImage:[[UIImage imageNamed:@"back_indicator_image"] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate] forState:UIControlStateNormal];
-    [btn setFrame:CGRectMake(0, 0, label.frame.size.width+22+btn.imageView.frame.size.width , 44)];
-    [btn setterOffset];
+    _btn = (DKBackButton *)self.customView;
+    [_btn setImage:[[UIImage imageNamed:@"back_indicator_image"] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate] forState:UIControlStateNormal];
+    [_btn setFrame:CGRectMake(0, 0, label.frame.size.width+22+_btn.imageView.frame.size.width, 44)];
+    [_btn setterOffset];
 }
 
 
@@ -114,8 +113,8 @@
 
 - (void)setAction:(SEL)action{
     [super setAction:action];
-    DKBackButton *btn = (DKBackButton *)self.customView;
-    [btn addTarget:self.target action:action forControlEvents:UIControlEventTouchUpInside];
+    _btn = (DKBackButton *)self.customView;
+    [_btn addTarget:self.target action:action forControlEvents:UIControlEventTouchUpInside];
 }
 
 - (SEL)action{
@@ -123,8 +122,8 @@
 }
 
 - (void)setHidden:(BOOL)hidden{
-    DKBackButton *btn = (DKBackButton *)self.customView;
-    [btn setHidden:hidden];
+    _btn = (DKBackButton *)self.customView;
+    [_btn setHidden:hidden];
 }
 
 -(void)setTintColor:(UIColor *)tintColor{
