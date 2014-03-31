@@ -106,8 +106,6 @@
 
 - (void)setTarget:(id)target{
     [super setTarget:target];
-    DKBackButton *btn = (DKBackButton *)self.customView;
-    [btn addTarget:target action:self.action forControlEvents:UIControlEventTouchUpInside];
 }
 
 - (id)target{
@@ -115,6 +113,7 @@
 }
 
 - (void)setAction:(SEL)action{
+    [super setAction:action];
     DKBackButton *btn = (DKBackButton *)self.customView;
     [btn addTarget:self.target action:action forControlEvents:UIControlEventTouchUpInside];
 }
