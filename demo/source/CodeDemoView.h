@@ -10,5 +10,5 @@
 
 @interface CodeDemoView : UIView
 
-@property(nonatomic, weak) UINavigationBar *navbar;
+@property(nonatomic, strong) UINavigationBar *navbar;
 @end
