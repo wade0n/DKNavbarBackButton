@@ -19,7 +19,6 @@
 		77534FC7183A12160005D89B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77534FB5183A12160005D89B /* Images.xcassets */; };
 		77534FC8183A12160005D89B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77534FB8183A12160005D89B /* AppDelegate.m */; };
 		77534FC9183A12160005D89B /* CodeDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77534FBA183A12160005D89B /* CodeDemoView.m */; };
-		77534FCA183A12160005D89B /* CustomNavbarBackButton-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77534FBB183A12160005D89B /* CustomNavbarBackButton-Info.plist */; };
 		77534FCB183A12160005D89B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77534FBD183A12160005D89B /* main.m */; };
 		77534FCC183A12160005D89B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77534FBF183A12160005D89B /* ViewController.m */; };
 		77A1B7211836A90600735C4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A1B7201836A90600735C4F /* Foundation.framework */; };
@@ -241,7 +240,7 @@
 		77A1B7151836A90600735C4F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Дмитрий Калашников";
 				TargetAttributes = {
 					77A1B71C1836A90600735C4F = {
@@ -284,7 +283,6 @@
 				77534FC7183A12160005D89B /* Images.xcassets in Resources */,
 				7724226D18B34F8E00200218 /* DKBackButtonLocalizable.strings in Resources */,
 				77534FC6183A12160005D89B /* InfoPlist.strings in Resources */,
-				77534FCA183A12160005D89B /* CustomNavbarBackButton-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,7 +371,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -413,7 +410,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -478,7 +474,6 @@
 		77A1B7561836A90600735C4F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustoNavbarBackButton.app/CustoNavbarBackButton";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -501,7 +496,6 @@
 		77A1B7571836A90600735C4F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustoNavbarBackButton.app/CustoNavbarBackButton";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
