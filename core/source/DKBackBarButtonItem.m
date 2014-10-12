@@ -23,14 +23,14 @@
 - (id)initWithCoder:(NSCoder *)aDecoder{
     self = [super initWithCoder:aDecoder];
     if (self) {
-    
+        [self startUp];
     }
     return self;
 }
 
 - (id)initWithTitle:(NSString *)title{
     self = [super init];
-    
+
     if (self) {
         self.title = title;
         [self startUp];
@@ -39,8 +39,6 @@
 }
 
 -(void)awakeFromNib{
-    [self startUp];
-    
 }
 
 - (void)startUp{
@@ -102,26 +100,10 @@
     [_btn setterOffset];
 }
 
-
-- (void)setTarget:(id)target{
-    [super setTarget:target];
-    _btn = (DKBackButton *)self.customView;
-    [_btn addTarget:self.target action:self.action forControlEvents:UIControlEventTouchUpInside];
-
-}
-
-- (id)target{
-    return [super target];
-}
-
 - (void)setAction:(SEL)action{
     [super setAction:action];
     _btn = (DKBackButton *)self.customView;
     [_btn addTarget:self.target action:action forControlEvents:UIControlEventTouchUpInside];
-}
-
-- (SEL)action{
-    return [super action];
 }
 
 - (void)setHidden:(BOOL)hidden{
